@@ -83,7 +83,7 @@ public class HelloWorld {
 
         strings.forEach(letter -> System.out.print(letter));
 
-        //Or we can add filter
+        
         strings.stream().filter(string -> !string.equals("")).forEach(string -> System.out.print(string));
 
         //Or even with method reference
